@@ -11,14 +11,17 @@ An unconfigured travelnet box can be configured by anyone. If it is misconfigure
 All stations that have the same network name set and are owned by the same user connect to the same network.
 
 Moddifications:
-  - Added a private travelnet
+  - Added a private travelnet</br>
     recipe:
+    ```
       copper ingot - empty      - copper ingot
       empty        - travelnet  - empty
       copper ingot - empty      - copper ingot
-  - Added a locked travelnet
+      ```
+  - Added a locked travelnet</br>
     recipe:
+    ```
       steel ingot  - empty      - steel ingot
       empty        - travelnet  - empty
       steel ingot  - empty      - steel ingot
-      
+      ```
